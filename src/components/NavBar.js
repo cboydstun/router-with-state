@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 
 // using state for active link
-const NavBar = () => {
+export default function NavBar() {
   const [currentPage, setCurrentPage] = useState("");
 
   const handleClick = e => {
@@ -37,6 +37,4 @@ const NavBar = () => {
       </Link>
     </nav>
   );
-};
-
-export default NavBar;
+}
