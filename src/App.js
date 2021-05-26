@@ -14,7 +14,9 @@ export default function App() {
             <div>
                 <h1>State w/ Active Links</h1>
                 <NavBar />
-                <Route exact path="/home" component={Home} />
+                <Route exact path="/">
+                    <Home />
+                </Route>
                 <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
             </div>

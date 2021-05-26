@@ -12,7 +12,6 @@ body {
 }
 
 .App {
-  height: 100%;
   font-family: sans-serif;
   text-align: center;
   display: flex;
@@ -29,10 +28,11 @@ nav {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 61vw;
+  width: 60vw;
   min-width: 40vw;
   background: dodgerblue;
   height: 3rem;
+  border-radius: 1rem 1rem 0 0;
 }
 
 nav a {
@@ -55,4 +55,5 @@ nav a {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
+  border-radius: 0 0 1rem 1rem;
 }

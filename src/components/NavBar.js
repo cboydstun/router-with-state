@@ -12,10 +12,10 @@ export default function NavBar() {
   return (
     <nav>
       <Link
-        to="home"
-        className={currentPage === "home" ? "active" : undefined}
+        to="/"
+        className={currentPage === "/" ? "active" : undefined}
         onClick={handleClick}
-        name="home"
+        name="/"
       >
         Home
       </Link>
