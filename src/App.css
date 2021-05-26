@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background: rebeccapurple;
+}
+
+.App {
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 61vw;
+  min-width: 40vw;
+  background: dodgerblue;
+  height: 3rem;
+}
+
+nav a {
+  font-size: 1rem;
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: skyblue;
+}
+
+.page {
+  height: 40vh;
+  width: 60vw;
+  background: skyblue;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
